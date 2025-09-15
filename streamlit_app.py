@@ -21,7 +21,7 @@ st.set_page_config(
 )
 
 # Configuración de la API
-API_BASE_URL = "http://127.0.0.1:8000"  # Cambiar por tu URL real
+API_BASE_URL = "https://daylong-datalab-reddit.hf.space"  # Cambiar por tu URL real
 
 # Títulos y descripción
 st.markdown("<h1 style='text-align: center;'>📈 Reddit WSB Sentiment Analysis</h1>", unsafe_allow_html=True)
@@ -1401,4 +1401,5 @@ elif selected_tab == "📱 Reddit Sentiment":
                     st.error("❌ No se pudo obtener el análisis de sentimiento. Verifica el símbolo y la conexión.")
         else:
             st.warning("⚠️ Por favor ingresa un símbolo válido.")
+
 
